@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maria Gonzalez Gonzalez | PM Technical</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .gradient-text {
+            background: linear-gradient(90deg, #3b82f6, #10b981);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .privacy-toggle:checked ~ .privacy-content { display: block; }
+        .privacy-toggle:checked ~ .growth-content { display: none; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans">
+
+    <header class="max-w-5xl mx-auto px-6 py-20 text-center">
+        <h1 class="text-5xl font-extrabold mb-4">Maria Gonzalez Gonzalez, <span class="gradient-text">Ph.D.</span></h1>
+        <p class="text-2xl font-light text-slate-600 mb-8">The Collaborative Catalyst for $19B AdTech Ecosystems</p>
+        
+        <div class="flex flex-wrap justify-center gap-4 mb-12">
+            <span class="bg-blue-100 text-blue-800 px-4 py-1 rounded-full text-sm font-semibold">9+ Years AdTech Experience</span>
+            <span class="bg-green-100 text-green-800 px-4 py-1 rounded-full text-sm font-semibold">$52M+ Incremental Revenue</span>
+            <span class="bg-purple-100 text-purple-800 px-4 py-1 rounded-full text-sm font-semibold">Privacy Compliance Expert</span>
+        </div>
+    </header>
+
+    <section class="max-w-5xl mx-auto px-6 mb-20">
+        <h2 class="text-3xl font-bold mb-10 border-b pb-2">Why I'm Your Next PM-T</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200">
+                <p class="text-xs font-bold uppercase tracking-widest text-slate-400 mb-2">The Challenge</p>
+                <p class="mb-4 text-sm italic text-slate-600">"We have fragmented data across 7 lines of business and 100+ teams."</p>
+                <p class="text-xs font-bold uppercase tracking-widest text-blue-600 mb-2">The Maria Solution</p>
+                <p class="text-sm font-medium">Architected a central analytics vision for a $19B publisher portfolio at Amazon.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200">
+                <p class="text-xs font-bold uppercase tracking-widest text-slate-400 mb-2">The Challenge</p>
+                <p class="mb-4 text-sm italic text-slate-600">"Campaign troubleshooting takes days, costing us advertiser trust."</p>
+                <p class="text-xs font-bold uppercase tracking-widest text-blue-600 mb-2">The Maria Solution</p>
+                <p class="text-sm font-medium">Launched an AI recommendation engine, reducing issue resolution from days to minutes.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200">
+                <p class="text-xs font-bold uppercase tracking-widest text-slate-400 mb-2">The Challenge</p>
+                <p class="mb-4 text-sm italic text-slate-600">"How do we grow revenue without compromising global privacy laws?"</p>
+                <p class="text-xs font-bold uppercase tracking-widest text-blue-600 mb-2">The Maria Solution</p>
+                <p class="text-sm font-medium">Applied doctoral research in data privacy to ensure GDPR/CCPA compliance while scaling ad products.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-slate-900 text-white py-20 px-6">
+        <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12">
+            <div>
+                <h3 class="text-2xl font-bold mb-6">Technical DNA</h3>
+                <ul class="space-y-4 text-slate-300">
+                    <li class="flex items-center"><span class="w-2 h-2 bg-blue-500 rounded-full mr-3"></span> MSc Telecommunications Engineering</li>
+                    <li class="flex items-center"><span class="w-2 h-2 bg-blue-500 rounded-full mr-3"></span> Expert in Hybrid Auctions & Floor Pricing</li>
+                    <li class="flex items-center"><span class="w-2 h-2 bg-blue-500 rounded-full mr-3"></span> Advanced Analytics: SQL, PLS-SEM, Tableau</li>
+                    <li class="flex items-center"><span class="w-2 h-2 bg-blue-500 rounded-full mr-3"></span> AI-Powered Creative Tooling</li>
+                </ul>
+            </div>
+            <div class="bg-slate-800 p-8 rounded-2xl">
+                <h3 class="text-xl font-bold mb-4">Research-Driven Strategy</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">
+                    My Doctorate in Business Administration focused on the "Effectiveness of online video advertising based on audience characteristics." I don't just build products; I build validated advertising ecosystems.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="max-w-5xl mx-auto px-6 py-20 text-center">
+        <h2 class="text-3xl font-bold mb-4">Ready to unblock your growth?</h2>
+        <p class="mb-8 text-slate-600 italic">"I identify systemic gaps and unblock growth through cross-functional synergy."</p>
+        <a href="mailto:maria.gonzalezgonza@gmail.com" class="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition">Contact Maria</a>
+        <div class="mt-8 text-slate-400 text-sm">
+            Seattle, WA | LinkedIn: /in/mariagonzalezgonza/
+        </div>
+    </footer>
+
+</body>
+</html>
